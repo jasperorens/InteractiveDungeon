@@ -1,0 +1,6 @@
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnDLib\bin\Release\ImmersiveDnDLib.dll
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnDLib\bin\Release\ImmersiveDnDLib.pdb
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnDLib\obj\Release\ImmersiveDnDLib.csproj.AssemblyReference.cache
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnDLib\obj\Release\ImmersiveDnDLib.csproj.CoreCompileInputs.cache
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnDLib\obj\Release\ImmersiveDnDLib.dll
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnDLib\obj\Release\ImmersiveDnDLib.pdb

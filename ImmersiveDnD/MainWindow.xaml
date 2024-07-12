@@ -1,0 +1,301 @@
+﻿<Window x:Class="ImmersiveDnD.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImmersiveDnD"
+        mc:Ignorable="d"
+        Title="ImmersiveDnD" Height="968" Width="1866">
+    <DockPanel>
+        <DockPanel DockPanel.Dock="Top">
+            <Menu Name="File" Background="#47505e">
+                <MenuItem Header="File" Foreground="White">
+                    <MenuItem Header="Set up sound effects" Background="#47505e" BorderThickness="0" Foreground="white" Click="setUpBoard_Click" IsEnabled="False"/>
+                </MenuItem>
+            </Menu>
+
+        </DockPanel>
+        <Grid Background="#1d242f">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="2*"/>
+
+            </Grid.RowDefinitions>
+
+            <Border CornerRadius="20" BorderBrush="#223140" BorderThickness="3" Margin="10px">
+                <StackPanel Background="#223140">
+
+                    <DockPanel>
+                        <StackPanel DockPanel.Dock="Bottom">
+                            <DockPanel>
+                                <Label Content="Species" Foreground="White"/>
+                                <StackPanel Orientation="Horizontal" DockPanel.Dock="Right" HorizontalAlignment="Right">
+                                    <Label Content="1" Foreground="White" Name="LbCurrent"/>
+                                    <Label Content="/" Foreground="White"/>
+                                    <Label Content="1" Foreground="White" Name="LbTotal"/>
+                                </StackPanel>
+                            </DockPanel>
+                            <ComboBox Name="CbCharLT" Margin="10px" SelectionChanged="CbCharLT_SelectionChanged">
+                                <ComboBoxItem Content="All"/>
+                                <ComboBoxItem Content="__________________________________________________________" IsEnabled="False"/>
+                            </ComboBox>
+
+                            <Label Content="Character" Foreground="White" />
+                            <TextBox Name="TxtCharacters" Margin="10px" Visibility="Collapsed" />
+
+                            <ComboBox Name="CbCharacters" Margin="10px" SelectionChanged="CbCharacters_SelectionChanged" />
+
+                            <DockPanel>
+                                <Button Content="Upload" Name="BtnUploadChar" Margin="10px" Width="120px"  BorderThickness="0" Background="#4a535c" Foreground="white" Click="BtnUploadChar_Click"/>
+                                <Button Content="Clear" Name="BtnClearChar" Margin="10px" Width="120px"  BorderThickness="0" Background="#4a535c" Foreground="white" Click="BtnClearChar_Click"/>
+                                <Button Content="Remove" Name="BtnRemChar" Margin="10px" Width="120px" DockPanel.Dock="Right" HorizontalAlignment="Right"  BorderThickness="0" Background="#4a535c" Foreground="white"/>
+                                <Button Content="Add" Name="BtnAddChar" Margin="10px" Width="120px" DockPanel.Dock="Right" HorizontalAlignment="Right"  BorderThickness="0" Background="#4a535c" Foreground="white" Visibility="Hidden" Click="BtnAddChar_Click"/>
+
+                            </DockPanel>
+                        </StackPanel>
+
+                        <StackPanel DockPanel.Dock="Top">
+
+                            <DockPanel>
+                                <ComboBox Name="CbCharNum" Margin="10px" DockPanel.Dock="Right" Width="50px" SelectedIndex="0" SelectionChanged="CbCharNum_SelectionChanged">
+                                    <ComboBoxItem Content="1"/>
+                                    <ComboBoxItem Content="2"/>
+                                    <ComboBoxItem Content="3"/>
+                                    <ComboBoxItem Content="4"/>
+                                </ComboBox>
+                                <Label Content="Number of characters" Margin="10px" Foreground="white" DockPanel.Dock="Right"/>
+                                <Label  DockPanel.Dock="Left" Content="Select a character" Foreground="white" Margin="10px"/>
+                            </DockPanel>
+                            <Grid Loaded="Grid_Loaded">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="119*"/>
+                                    <ColumnDefinition Width="297*"/>
+                                    <ColumnDefinition Width="60*"/>
+                                    <ColumnDefinition Width="119*"/>
+                                </Grid.ColumnDefinitions>
+                                <Button Name="arrowLeft" Height="50px" Width="50px" BorderThickness="0" Click="arrowLeft_Click" Margin="35,75,34,75" Visibility="Visible">
+                                    <Button.Background>
+                                        <ImageBrush ImageSource="/images/logo/arrowLeft.png"/>
+                                    </Button.Background>
+                                </Button>
+                                <Image Name="ImChar" Height="200px" Width="400px" Source="/images/logo/selectimage.png" Margin="119,0,77,0" Grid.ColumnSpan="4" />
+
+                                <Button Name="arrowRight" Height="50px" Width="50px" BorderThickness="0" Click="arrowRight_Click" Margin="34,75,35,75" Grid.Column="3" Visibility="Visible">
+                                    <Button.Background>
+                                        <ImageBrush ImageSource="/images/logo/arrowRight.png"/>
+                                    </Button.Background>
+                                </Button>
+
+                            </Grid>
+                        </StackPanel>
+                    </DockPanel>
+                </StackPanel>
+            </Border>
+
+
+            <Border CornerRadius="20" BorderBrush="#223140" BorderThickness="3" Margin="10px" Grid.Column="1">
+                <StackPanel Background="#223140">
+
+                    <DockPanel>
+                        <StackPanel DockPanel.Dock="Bottom">
+                            <Label Content="Location Type" Foreground="White"/>
+                            <ComboBox Name="CbAreaLT" Margin="10px" SelectionChanged="CbAreaLT_SelectionChanged">
+                                <ComboBoxItem Content="All"/>
+                                <ComboBoxItem Content="__________________________________________________________" IsEnabled="False"/>
+                                <ComboBoxItem Content="Forests"/>
+                                <ComboBoxItem Content="Caves"/>
+                                <ComboBoxItem Content="Dungeons"/>
+                                <ComboBoxItem Content="Mansions"/>
+                                <ComboBoxItem Content="Towns"/>
+                                <ComboBoxItem Content="Plains"/>
+                                <ComboBoxItem Content="Islands"/>
+                                <ComboBoxItem Content="Mountains"/>
+                                <ComboBoxItem Content="Swamps"/>
+                                <ComboBoxItem Content="Specials"/>
+                            </ComboBox>
+
+                            <Label Content="Area" Foreground="White" />
+                            <TextBox Name="TxtArea" Margin="10px" Visibility="Collapsed" />
+                            <ComboBox Name="CbArea" Margin="10px" SelectionChanged="CbArea_SelectionChanged"/>
+
+                            <DockPanel>
+                                <Button Content="Upload" Name="BtnUploadArea" Margin="10px" Width="120px"  BorderThickness="0" Background="#4a535c" Foreground="white" Click="BtnUploadArea_Click"/>
+                                <Button Content="Clear" Name="BtnClearArea" Margin="10px" Width="120px"  BorderThickness="0" Background="#4a535c" Foreground="white" Click="BtnClearArea_Click" />
+                                <Button Content="Remove" Name="BtnRemArea" Margin="10px" Width="120px" DockPanel.Dock="Right" HorizontalAlignment="Right"  BorderThickness="0" Background="#4a535c" Foreground="white"/>
+                            </DockPanel>
+                        </StackPanel>
+
+                        <StackPanel DockPanel.Dock="Top">
+                            <Label Content="Select a surrounding" Foreground="white" Margin="10px"/>
+                            <Image Name="ImAr" Height="200px" Width="400px" Source="/images/logo/selectarea.png" />
+                        </StackPanel>
+                    </DockPanel>
+                </StackPanel>
+            </Border>
+
+
+
+            <Border CornerRadius="20" BorderBrush="#223140" BorderThickness="3" Margin="10px" Grid.Column="2">
+                <StackPanel Background="#223140">
+
+                    <DockPanel>
+                        <StackPanel DockPanel.Dock="Bottom">
+                            <Label Content="Background Sound" Foreground="White"/>
+                            <TextBox Name="TxtSFX" Margin="10px" Visibility="Collapsed"/>
+                            <ComboBox Name="CbSFX" Margin="10px" SelectionChanged="CbSFX_SelectionChanged" />
+
+                            <DockPanel>
+                                <Button Content="Upload" Name="BtnUploadSFX" Margin="10px" Width="120px"  BorderThickness="0" Background="#4a535c" Foreground="white" Click="BtnUploadSFX_Click"/>
+                                <Button Content="Clear" Name="BtnClearSFX" Margin="10px" Width="120px"  BorderThickness="0" Background="#4a535c" Foreground="white" Click="BtnClearSFX_Click" />
+                                <Button Content="Remove" Name="BtnRemSFX" Margin="10px" Width="120px" DockPanel.Dock="Right" HorizontalAlignment="Right"  BorderThickness="0" Background="#4a535c" Foreground="white"/>
+                            </DockPanel>
+                        </StackPanel>
+
+                        <StackPanel>
+                            <Label Content="Select a Sound" Foreground="white" Margin="10px"/>
+                            <Image Name="ImSFX" Height="200px" Width="400px" Source="/images/logo/selectsfx.png" />
+                            <DockPanel>
+                                <Button Name="ImSFXplay" Height="200px" Width="260px" BorderThickness="0" Click="ImSFXplay_Click" Margin="20px 0" Visibility="Collapsed">
+                                    <Button.Background>
+                                        <ImageBrush x:Name="ImSFXsourcePlay" ImageSource="/images/logo/play.png"/>
+                                    </Button.Background>
+                                </Button>
+
+                                <Button Name="ImSFXstop" Height="200px" Width="260px" HorizontalAlignment="Right" BorderThickness="0" Click="ImSFXstop_Click" Margin="20px 0" Visibility="Collapsed">
+                                    <Button.Background>
+                                        <ImageBrush x:Name="ImSFXsourceStop" ImageSource="/images/logo/stop.png"/>
+                                    </Button.Background>
+                                </Button>
+                            </DockPanel>
+
+
+                        </StackPanel>
+                    </DockPanel>
+                </StackPanel>
+            </Border>
+
+
+
+            <Border CornerRadius="20" BorderBrush="#223140" BorderThickness="3" Margin="10px" Grid.Row="2">
+                <StackPanel  Background="#223140" Margin="10px">
+                    <Label Content="Soundboard" Foreground="white"/>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+
+                        <StackPanel Margin="5px">
+                            <Button Name="BtnSound7" Content="7" Foreground="White" Background="Black" BorderThickness="0" FontSize="35px" Margin="10px 0" Width="100px" Click="BtnSound_Click" KeyDown="BtnSound_KeyDown"/>
+                            <Label Content="xx" Name="Lb7" Foreground="White" Background="Black" Margin="10px 0" HorizontalAlignment="Center" Width="100px" HorizontalContentAlignment="Center" />
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="1" Margin="5px">
+                            <Button Name="BtnSound8" Content="8" Foreground="White" Background="Black" BorderThickness="0" FontSize="35px" Margin="10px 0" Width="100px" Click="BtnSound_Click" KeyDown="BtnSound_KeyDown"/>
+                            <Label Content="xx" Name="Lb8" Foreground="White" Background="Black" Margin="10px 0" HorizontalAlignment="Center" Width="100px" HorizontalContentAlignment="Center" />
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="2" Margin="5px">
+                            <Button Name="BtnSound9" Content="9" Foreground="White" Background="Black" BorderThickness="0" FontSize="35px" Margin="10px 0" Width="100px" Click="BtnSound_Click" KeyDown="BtnSound_KeyDown"/>
+                            <Label Content="Creepy Swoosh" Name="Lb9" Foreground="White" Background="Black" Margin="10px 0" HorizontalAlignment="Center" Width="100px" HorizontalContentAlignment="Center" />
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="0" Grid.Row="1" Margin="5px">
+                            <Button Name="BtnSound4" Content="4" Foreground="White" Background="Black" BorderThickness="0" FontSize="35px" Margin="10px 0" Width="100px" Click="BtnSound_Click" KeyDown="BtnSound_KeyDown"/>
+                            <Label Content="Monster Growl" Name="Lb4" Foreground="White" Background="Black" Margin="10px 0" HorizontalAlignment="Center" Width="100px" HorizontalContentAlignment="Center" />
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="1" Grid.Row="1" Margin="5px">
+                            <Button Name="BtnSound5" Content="5" Foreground="White" Background="Black" BorderThickness="0" FontSize="35px" Margin="10px 0" Width="100px" Click="BtnSound_Click" KeyDown="BtnSound_KeyDown"/>
+                            <Label Content="Sword Swoosh" Name="Lb5" Foreground="White" Background="Black" Margin="10px 0" HorizontalAlignment="Center" Width="100px" HorizontalContentAlignment="Center" />
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="2" Grid.Row="1" Margin="5px">
+                            <Button Name="BtnSound6" Content="6" Foreground="White" Background="Black" BorderThickness="0" FontSize="35px" Margin="10px 0" Width="100px" Click="BtnSound_Click" KeyDown="BtnSound_KeyDown"/>
+                            <Label Content="Door opening" Name="Lb6" Foreground="White" Background="Black" Margin="10px 0" HorizontalAlignment="Center" Width="100px" HorizontalContentAlignment="Center" />
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="0" Grid.Row="2" Margin="5px">
+                            <Button Name="BtnSound1" Content="1" Foreground="White" Background="Black" BorderThickness="0" FontSize="35px" Margin="10px 0" Width="100px" Click="BtnSound_Click" KeyDown="BtnSound_KeyDown"/>
+                            <Label Content="Explosion" Name="Lb1" Foreground="White" Background="Black" Margin="10px 0" HorizontalAlignment="Center" Width="100px" HorizontalContentAlignment="Center" />
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="1" Grid.Row="2" Margin="5px">
+                            <Button Name="BtnSound2" Content="2" Foreground="White" Background="Black" BorderThickness="0" FontSize="35px" Margin="10px 0" Width="100px" Click="BtnSound_Click" KeyDown="BtnSound_KeyDown"/>
+                            <Label Content="Flame" Name="Lb2" Foreground="White" Background="Black" Margin="10px 0" HorizontalAlignment="Center" Width="100px" HorizontalContentAlignment="Center" />
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="2" Grid.Row="2" Margin="5px">
+                            <Button Name="BtnSound3" Content="3" Foreground="White" Background="Black" BorderThickness="0" FontSize="35px" Margin="10px 0" Width="100px" Click="BtnSound_Click" KeyDown="BtnSound_KeyDown"/>
+                            <Label Content="Level Up" Name="Lb3" Foreground="White" Background="Black" Margin="10px 0" HorizontalAlignment="Center" Width="100px" HorizontalContentAlignment="Center" />
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="3"  Margin="5px">
+                            <Button  Name="BtnSound0" Content="0" Foreground="White" Background="Black" BorderThickness="0" FontSize="35px" Margin="10px 0" Width="450px" Click="BtnSound_Click" KeyDown="BtnSound_KeyDown"/>
+                            <Label  Content="Stop Audio" Name="Lb0" Foreground="White" Background="Black" Margin="10px 0" HorizontalAlignment="Center" Width="450px" HorizontalContentAlignment="Center" />
+                        </StackPanel>
+                    </Grid>
+                </StackPanel>
+
+            </Border>
+
+
+
+
+
+            <Border CornerRadius="20" BorderBrush="#223140" BorderThickness="3" Margin="10px" Grid.Column="1" Grid.Row="1">
+                <StackPanel Background="#223140">
+
+                    <DockPanel>
+                        <StackPanel DockPanel.Dock="Bottom">
+                            <Label Content="Party" Foreground="White"/>
+                            <ComboBox Name="CbParty" Margin="10px" SelectionChanged="CbParty_SelectionChanged">
+                            </ComboBox>
+
+
+                            <DockPanel>
+                                <Button Content="Upload" Name="BtnUploaidArea" Margin="10px" Width="120px"  BorderThickness="0" Background="#4a535c" Foreground="white" Click="BtnUploaldParty_Click"/>
+                                <Button Content="Clear" Name="BtnClearParty" Margin="10px" Width="120px"  BorderThickness="0" Background="#4a535c" Foreground="white" Click="BtnClearParty_Click" />
+                                <Button Visibility="Collapsed" Content="Remove" Name="BtnReimArea" Margin="10px" Width="120px" DockPanel.Dock="Right" HorizontalAlignment="Right"  BorderThickness="0" Background="#4a535c" Foreground="white"/>
+                            </DockPanel>
+                        </StackPanel>
+
+                        <StackPanel DockPanel.Dock="Top">
+                            <Label Content="Select a surrounding" Foreground="white" Margin="10px"/>
+                            <Image Name="ImParty" Height="200px" Width="400px" Source="/images/logo/selectParty.png" />
+                        </StackPanel>
+                    </DockPanel>
+                </StackPanel>
+            </Border>
+
+
+
+
+
+
+
+            <Border CornerRadius="20" BorderBrush="#223140" BorderThickness="3" Margin="10px" Grid.Column="2" Grid.Row="2">
+                <StackPanel Background="#223140">
+                    <Button Content="Upload Map" Name="BtnUploadMap" BorderThickness="0"  Background="#4a535c" Foreground="white" Height="40px" Margin="100px 15px" Click="BtnUploadMap_Click"/>
+                    <Button Content="Map" Name="BtnMap" BorderThickness="0"  Background="Orange" Foreground="white" Height="40px" Margin="100px 15px" Click="BtnMap_Click"/>
+                    <Button Content="Display" BorderThickness="0" Name="BtnDisplay" Background="#6ed18a" Foreground="white" Height="40px" Margin="100px 15px" Click="BtnDisplay_Click"/>
+                </StackPanel>
+            </Border>
+
+
+        </Grid>
+    </DockPanel>
+
+</Window>

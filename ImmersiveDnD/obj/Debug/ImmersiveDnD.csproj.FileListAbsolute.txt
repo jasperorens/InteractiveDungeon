@@ -1,0 +1,78 @@
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnD\obj\Debug\ImmersiveDnD.csproj.AssemblyReference.cache
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnD\obj\Debug\ImmersiveDnD.csproj.SuggestedBindingRedirects.cache
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnD\obj\Debug\App.g.cs
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnD\obj\Debug\ImmersiveDnD_MarkupCompile.cache
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnD\bin\Debug\ImmersiveDnD.exe.config
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnD\bin\Debug\ImmersiveDnD.exe
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnD\bin\Debug\ImmersiveDnD.pdb
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnD\obj\Debug\MainWindow.g.cs
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnD\obj\Debug\ImmersiveDnD_MarkupCompile.lref
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnD\obj\Debug\MainWindow.baml
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnD\obj\Debug\ImmersiveDnD.g.resources
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnD\obj\Debug\ImmersiveDnD.Properties.Resources.resources
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnD\obj\Debug\ImmersiveDnD.csproj.GenerateResource.cache
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnD\obj\Debug\ImmersiveDnD.csproj.CoreCompileInputs.cache
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnD\obj\Debug\ImmersiveDnD.exe
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnD\obj\Debug\ImmersiveDnD.pdb
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnD\obj\Debug\Display.g.cs
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnD\obj\Debug\Display.baml
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnD\bin\Debug\ImmersiveDnDLib.dll
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnD\bin\Debug\ImmersiveDnDLib.pdb
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnD\obj\Debug\ImmersiveDnD.csproj.CopyComplete
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnD\bin\Debug\ImmersiveDnD.exe.manifest
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnD\bin\Debug\ImmersiveDnD.application
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnD\obj\Debug\ImmersiveDnD.exe.manifest
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnD\obj\Debug\ImmersiveDnD.application
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnD\obj\Debug\ImmersiveDnD_Content.g.cs
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnD\obj\Debug\ImmersiveDnD.csproj.AssemblyReference.cache
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnD\obj\Debug\ImmersiveDnD.csproj.SuggestedBindingRedirects.cache
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnD\obj\Debug\Display.g.cs
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnD\obj\Debug\MainWindow.g.cs
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnD\obj\Debug\App.g.cs
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnD\obj\Debug\ImmersiveDnD_Content.g.cs
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnD\obj\Debug\ImmersiveDnD_MarkupCompile.cache
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnD\obj\Debug\ImmersiveDnD_MarkupCompile.lref
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnD\obj\Debug\ImmersiveDnD.exe
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnD\obj\Debug\ImmersiveDnD.pdb
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnD\bin\Debug\ImmersiveDnD.exe.config
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnD\bin\Debug\ImmersiveDnD.exe.manifest
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnD\bin\Debug\ImmersiveDnD.application
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnD\bin\Debug\ImmersiveDnD.exe
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnD\bin\Debug\ImmersiveDnD.pdb
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnD\bin\Debug\ImmersiveDnDLib.dll
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnD\bin\Debug\ImmersiveDnDLib.pdb
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnD\obj\Debug\Display.baml
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnD\obj\Debug\MainWindow.baml
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnD\obj\Debug\ImmersiveDnD.g.resources
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnD\obj\Debug\ImmersiveDnD.Properties.Resources.resources
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnD\obj\Debug\ImmersiveDnD.csproj.GenerateResource.cache
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnD\obj\Debug\ImmersiveDnD.csproj.CoreCompileInputs.cache
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnD\obj\Debug\ImmersiveDnD.exe.manifest
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnD\obj\Debug\ImmersiveDnD.application
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnD\obj\Debug\ImmersiveDnD.csproj.CopyComplete
+D:\JASPER\WORK\Programming\Dungeon Interaction\Tet\ImmersiveDnD\bin\Debug\ImmersiveDnD.exe.config
+D:\JASPER\WORK\Programming\Dungeon Interaction\Tet\ImmersiveDnD\bin\Debug\ImmersiveDnD.exe.manifest
+D:\JASPER\WORK\Programming\Dungeon Interaction\Tet\ImmersiveDnD\bin\Debug\ImmersiveDnD.application
+D:\JASPER\WORK\Programming\Dungeon Interaction\Tet\ImmersiveDnD\bin\Debug\ImmersiveDnD.exe
+D:\JASPER\WORK\Programming\Dungeon Interaction\Tet\ImmersiveDnD\bin\Debug\ImmersiveDnD.pdb
+D:\JASPER\WORK\Programming\Dungeon Interaction\Tet\ImmersiveDnD\bin\Debug\ImmersiveDnDLib.dll
+D:\JASPER\WORK\Programming\Dungeon Interaction\Tet\ImmersiveDnD\bin\Debug\ImmersiveDnDLib.pdb
+D:\JASPER\WORK\Programming\Dungeon Interaction\Tet\ImmersiveDnD\obj\Debug\ImmersiveDnD.csproj.AssemblyReference.cache
+D:\JASPER\WORK\Programming\Dungeon Interaction\Tet\ImmersiveDnD\obj\Debug\ImmersiveDnD.csproj.SuggestedBindingRedirects.cache
+D:\JASPER\WORK\Programming\Dungeon Interaction\Tet\ImmersiveDnD\obj\Debug\Display.g.cs
+D:\JASPER\WORK\Programming\Dungeon Interaction\Tet\ImmersiveDnD\obj\Debug\MainWindow.g.cs
+D:\JASPER\WORK\Programming\Dungeon Interaction\Tet\ImmersiveDnD\obj\Debug\App.g.cs
+D:\JASPER\WORK\Programming\Dungeon Interaction\Tet\ImmersiveDnD\obj\Debug\ImmersiveDnD_Content.g.cs
+D:\JASPER\WORK\Programming\Dungeon Interaction\Tet\ImmersiveDnD\obj\Debug\ImmersiveDnD_MarkupCompile.cache
+D:\JASPER\WORK\Programming\Dungeon Interaction\Tet\ImmersiveDnD\obj\Debug\ImmersiveDnD_MarkupCompile.lref
+D:\JASPER\WORK\Programming\Dungeon Interaction\Tet\ImmersiveDnD\obj\Debug\Display.baml
+D:\JASPER\WORK\Programming\Dungeon Interaction\Tet\ImmersiveDnD\obj\Debug\MainWindow.baml
+D:\JASPER\WORK\Programming\Dungeon Interaction\Tet\ImmersiveDnD\obj\Debug\ImmersiveDnD.g.resources
+D:\JASPER\WORK\Programming\Dungeon Interaction\Tet\ImmersiveDnD\obj\Debug\ImmersiveDnD.Properties.Resources.resources
+D:\JASPER\WORK\Programming\Dungeon Interaction\Tet\ImmersiveDnD\obj\Debug\ImmersiveDnD.csproj.GenerateResource.cache
+D:\JASPER\WORK\Programming\Dungeon Interaction\Tet\ImmersiveDnD\obj\Debug\ImmersiveDnD.csproj.CoreCompileInputs.cache
+D:\JASPER\WORK\Programming\Dungeon Interaction\Tet\ImmersiveDnD\obj\Debug\ImmersiveDnD.exe.manifest
+D:\JASPER\WORK\Programming\Dungeon Interaction\Tet\ImmersiveDnD\obj\Debug\ImmersiveDnD.application
+D:\JASPER\WORK\Programming\Dungeon Interaction\Tet\ImmersiveDnD\obj\Debug\ImmersiveDnD.csproj.CopyComplete
+D:\JASPER\WORK\Programming\Dungeon Interaction\Tet\ImmersiveDnD\obj\Debug\ImmersiveDnD.exe
+D:\JASPER\WORK\Programming\Dungeon Interaction\Tet\ImmersiveDnD\obj\Debug\ImmersiveDnD.pdb

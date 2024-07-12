@@ -1,0 +1,12 @@
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnDLib\bin\Debug\ImmersiveDnDLib.dll
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnDLib\bin\Debug\ImmersiveDnDLib.pdb
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnDLib\obj\Debug\ImmersiveDnDLib.csproj.AssemblyReference.cache
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnDLib\obj\Debug\ImmersiveDnDLib.csproj.CoreCompileInputs.cache
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnDLib\obj\Debug\ImmersiveDnDLib.dll
+D:\JASPER\WORK\Programming\Dungeon Interaction\ImmersiveDnD\ImmersiveDnDLib\obj\Debug\ImmersiveDnDLib.pdb
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnDLib\bin\Debug\ImmersiveDnDLib.dll
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnDLib\bin\Debug\ImmersiveDnDLib.pdb
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnDLib\obj\Debug\ImmersiveDnDLib.csproj.AssemblyReference.cache
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnDLib\obj\Debug\ImmersiveDnDLib.csproj.CoreCompileInputs.cache
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnDLib\obj\Debug\ImmersiveDnDLib.dll
+C:\Users\J\Desktop\Projects\ImmersiveDnD\ImmersiveDnD\ImmersiveDnDLib\obj\Debug\ImmersiveDnDLib.pdb

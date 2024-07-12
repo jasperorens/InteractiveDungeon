@@ -1,0 +1,53 @@
+﻿<Window x:Class="ImmersiveDnD.Display"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImmersiveDnD"
+        mc:Ignorable="d"
+        Title="Display" Height="450" Width="800">
+    <Grid Background="#1d242f">
+        <Image Name="ImDisplay" Height="auto" Width="auto" Source="/images/logo/logo.png" Margin="25px" Stretch="Fill" />
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="0.4*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="6*"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+
+                <Image Name="ImDisChar4" Source="/images/logo/blank.png" Height="500" Width="auto" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0 0 8px 0" Grid.Column="0" Grid.ColumnSpan="8" Grid.Row="1" Grid.RowSpan="3" Panel.ZIndex="2" />
+                <Image Name="ImDisChar3" Source="/images/logo/blank.png" Height="500" Width="auto" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0 0 8px 0" Grid.Column="2" Grid.ColumnSpan="8" Grid.Row="0" Grid.RowSpan="3" />
+                <Image Name="ImDisChar2" Source="/images/logo/blank.png" Height="500" Width="auto" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0 0 8px 0" Grid.Column="4" Grid.ColumnSpan="8" Grid.Row="1" Grid.RowSpan="3" />
+                <Image Name="ImDisChar" Source="/images/logo/blank.png" Height="500" Width="auto" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0 0 8px 0" Grid.Column="6" Grid.ColumnSpan="8" Grid.Row="1" Grid.RowSpan="3"/>
+            </Grid>
+
+            <Grid Grid.Column="0">
+                <Image Name="ImParty" Source="/images/logo/blank.png" Height="auto" Width="auto" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0 0 8px 0" />
+
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

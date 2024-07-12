@@ -1,0 +1,9 @@
+1;Explosion.wav;
+2;Flame.wav;
+3;Level_Up.wav;
+4;Monster_Growl.wav;
+5;Sword_Swoosh.wav;
+6;Door_Opening.wav;
+7;Cheer.wav;
+8;Fast_Steps.wav;
+9;Creepy_Swoosh.wav;
